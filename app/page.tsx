@@ -108,7 +108,7 @@ export default function ELYCWebsite() {
       >
         <nav className="max-w-6xl mx-auto px-6 flex justify-between items-center">
           <div className="text-2xl font-bold text-green-500 glow-text">
-            東ロンドン８９３
+            ELYC | 東ロンドン８９３
           </div>
           <ul className="hidden md:flex space-x-8">
             <li>
@@ -175,26 +175,17 @@ export default function ELYCWebsite() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className={`fade-in ${visibleElements.has('about-text') ? 'visible' : ''}`} id="about-text">
               <h2 className="text-3xl md:text-4xl font-bold mb-8 text-green-500">
-                A Movement That Demands Respect
+                A Collective Movement
               </h2>
               <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
                 <p>
-                  East London is under siege. While you watch, the soul of our streets is being bought, sold, and erased. Gentrification doesn't knock—it kicks down doors. Cultural homogenization doesn't ask permission—it devours everything unique about this place and spits out coffee chains and luxury flats.
+                  The East London Yakuza Collective is a revolutionary movement born from the heart of London's most diverse and metropolitan landscape. We are not bound by traditional structures or hierarchies of the past, but inspired by the organizational dynamics and brotherhood principles of the yakuza tradition.
                 </p>
                 <p>
-                  The East London Yakuza Collective is the answer to a question nobody dared to ask: What if we stopped asking nicely?
-                </p>
-                <p className="font-semibold text-white">
-                  This isn't a social club. This isn't a networking group.
+                  In true reflection of London's multicultural spirit, we welcome individuals from all backgrounds, cultures, and walks of life. What unites us is not our origins, but our shared commitment to the values that define our collective.
                 </p>
                 <p>
-                  This is a disciplined organization built on principles that have stood the test of centuries—<em>Giri</em> (duty), <em>Ninjo</em> (compassion), <em>Makoto</em> (sincerity), <em>Jin</em> (benevolence). We've taken the organizational strength and brotherhood of yakuza tradition and adapted it for the reality of multicultural East London.
-                </p>
-                <p>
-                  We welcome anyone—regardless of background, ethnicity, or origin—who has the strength to stand with us. But understand this: joining isn't just about what you gain. It's about what you're willing to give. Your commitment. Your integrity. Your contribution to something far greater than yourself.
-                </p>
-                <p className="text-green-400 font-semibold">
-                  Step forward. Prove your worth. Join the Collective.
+                  Anyone can join and become part of this movement, regardless of their background, as long as they embrace our philosophy and contribute to the collective growth of our community.
                 </p>
               </div>
             </div>
