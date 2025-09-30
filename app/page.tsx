@@ -35,8 +35,27 @@ export default function ELYCWebsite() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white overflow-x-hidden" style={{ fontFamily: "'Bebas Neue', 'Yu Gothic', 'YuGothic', 'Hiragino Sans', sans-serif" }}>
       <style jsx>{`
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        
+        body {
+          letter-spacing: 0.05em;
+        }
+        
+        /* Japanese characters use Yu Gothic/Mincho */
+        @font-face {
+          font-family: 'ELYC Font';
+          src: local('Bebas Neue'), local('BebasNeue-Regular');
+          unicode-range: U+0020-007E, U+00A0-00FF; /* Latin characters */
+        }
+        
+        @font-face {
+          font-family: 'ELYC Font';
+          src: local('Yu Gothic'), local('YuGothic'), local('Yu Mincho'), local('YuMincho');
+          unicode-range: U+3000-9FFF, U+FF00-FFEF; /* Japanese characters */
+        }
+        
         @keyframes glow {
           0% { text-shadow: 0 0 20px rgba(34, 197, 94, 0.8); }
           100% { text-shadow: 0 0 30px rgba(34, 197, 94, 1), 0 0 40px rgba(34, 197, 94, 0.8); }
@@ -108,7 +127,7 @@ export default function ELYCWebsite() {
       >
         <nav className="max-w-6xl mx-auto px-6 flex justify-between items-center">
           <div className="text-2xl font-bold text-green-500 glow-text">
-            ELYC | 東ロンドン８９３
+            東ロンドン８９３
           </div>
           <ul className="hidden md:flex space-x-8">
             <li>
